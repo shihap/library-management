@@ -41,10 +41,20 @@
 			<scope>test</scope>
 		</dependency>
 
+
+		<!--for spring AOP-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-aop</artifactId>
 		</dependency>
+
+
+		<!--for spring REST-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+	
 
 
 	</dependencies>
